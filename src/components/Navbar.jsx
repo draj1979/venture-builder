@@ -54,7 +54,13 @@ const Navbar = () => {
         <header style={navStyles.header}>
             <div className="container" style={navStyles.navContainer}>
                 <Link to="/" style={navStyles.logo}>
-                    Kartavya<span style={navStyles.logoDot}></span>
+                    <img
+                        src="/logo.png"
+                        alt="Kartavya Logo"
+                        className="logo-rotate"
+                        style={{ width: '40px', height: '40px', objectFit: 'contain' }}
+                    />
+                    Kartavya
                 </Link>
                 <nav style={navStyles.links}>
                     {['/', '/model', '/portfolio', '/build', '/about'].map((path) => {
