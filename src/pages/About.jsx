@@ -23,12 +23,12 @@ const About = () => {
 
                     We work with founders, domain experts, and enterprises who are aligned on one principle: building for the long term. Partnerships are equity-aligned, execution-driven, and grounded in shared ownership rather than transactional engagement.
 
-                    Our vision is to build a portfolio of enduring, AI-driven companies that solve real problems and create lasting value—by combining conviction, technology depth, and disciplined execution.
+
                 </p>
 
                 <h2 style={{ fontSize: 'clamp(1.75rem, 5vw, 2rem)', marginBottom: '1.5rem' }}>Our Vision</h2>
                 <p style={{ color: 'var(--text-secondary)', marginBottom: '3rem', fontSize: '1.1rem' }}>
-                    To establish India as the global epicenter for building deep-tech AI companies. We believe that with the right structure, India's engineering talent can not just support global companies, but own them.
+                    To build a portfolio of enduring, AI-driven companies that solve real problems and create lasting value—by combining conviction, technology depth, and disciplined execution.
                 </p>
 
                 <h2 style={{ fontSize: 'clamp(1.75rem, 5vw, 2rem)', marginBottom: '1.5rem' }}>The Team</h2>
