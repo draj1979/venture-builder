@@ -2,14 +2,14 @@ export const portfolioData = [
   {
     name: "LawGIQ",
     category: "LegalTech",
-    problem: "Manual contract review is slow and error-prone.",
-    description: "AI-native contract review and risk analysis platform for enterprise legal teams."
+    problem: "Lawyers have to do lot of repititive work in documentations and legal research",
+    description: "LawGIQ is an innovative AI-powered platform designed to be a comprehensive legal assistant for lawyers and law firms"
   },
   {
     name: "ClinIQ",
     category: "HealthTech",
-    problem: "Doctors spend 40% of their time on documentation.",
-    description: "Ambient clinical intelligence that automates EMR documentation in real-time."
+    problem: "Doctors find it difficult to track their patients records and extract insights from it",
+    description: "ClinIQ is an advanced AI-powered platform designed to empower doctors and medical professionals. It acts as an intelligent copilot, streamlining clinical workflows, enhancing diagnostic accuracy, and ultimately improving the quality and efficiency of patient care"
   },
   {
     name: "InternOrbit",
