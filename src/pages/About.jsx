@@ -13,7 +13,17 @@ const About = () => {
                     lineHeight: '1.6',
                     marginBottom: '4rem'
                 }}>
-                    Kartavya Technology was founded on a simple premise: <strong>Building a company is a distinct skill from consulting on one.</strong> We are engineers, product architects, and operators who have shifted from "servicing" clients to "building" assets.
+                    Kartavya Technology is a Venture Builder focused on conceiving, building, and scaling AI-first companies from India with global relevance.
+
+                    We do not operate as a services firm, accelerator, or advisory platform. Our work is centered on company creation—from identifying meaningful problems to building production-grade products, assembling core teams, and scaling ventures with long-term ownership and operational involvement.
+
+                    Our approach combines deep technology expertise with execution discipline. We build ventures by embedding ourselves at the core—owning product architecture, AI strategy, and engineering execution from day one. This allows us to create companies that are capital-efficient, technically strong, and designed for scale.
+
+                    Kartavya Technology functions as a company-building platform. We leverage shared infrastructure, reusable AI systems, and repeatable execution frameworks to reduce the cost and risk of early-stage venture creation. This enables faster validation, stronger foundations, and higher long-term equity value across the portfolio.
+
+                    We work with founders, domain experts, and enterprises who are aligned on one principle: building for the long term. Partnerships are equity-aligned, execution-driven, and grounded in shared ownership rather than transactional engagement.
+
+                    Our vision is to build a portfolio of enduring, AI-driven companies that solve real problems and create lasting value—by combining conviction, technology depth, and disciplined execution.
                 </p>
 
                 <h2 style={{ fontSize: 'clamp(1.75rem, 5vw, 2rem)', marginBottom: '1.5rem' }}>Our Vision</h2>

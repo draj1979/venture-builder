@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -9,9 +10,9 @@ const Footer = () => {
                     <p className="footer-copy">&copy; {new Date().getFullYear()} Kartavya Technology. All rights reserved.</p>
                 </div>
                 <div className="footer-links">
-                    <a href="#" className="footer-link">LinkedIn</a>
-                    <a href="#" className="footer-link">Twitter</a>
-                    <a href="mailto:hello@kartavya.tech" className="footer-link">Contact</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="footer-link">Twitter</a>
+                    <Link to="/contact" className="footer-link">Contact</Link>
                 </div>
             </div>
         </footer>

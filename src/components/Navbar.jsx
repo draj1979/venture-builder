@@ -48,11 +48,12 @@ const Navbar = () => {
                 </button>
 
                 <nav className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-                    {['/', '/model', '/portfolio', '/build', '/about'].map((path) => {
+                    {['/', '/model', '/portfolio', '/build', '/about', '/contact'].map((path) => {
                         const label = path === '/' ? 'Home' :
                             path === '/model' ? 'Model' :
                                 path === '/portfolio' ? 'Portfolio' :
-                                    path === '/build' ? 'Build With Us' : 'About';
+                                    path === '/build' ? 'Build With Us' :
+                                        path === '/about' ? 'About' : 'Contact';
                         return (
                             <Link
                                 key={path}

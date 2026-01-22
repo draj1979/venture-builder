@@ -15,7 +15,7 @@ export const portfolioData = [
     name: "InternOrbit",
     category: "Education",
     problem: "Startups need talented students who can help them in building products and business in cost effective way",
-    description: "A platform where students find internships and startups find talent in cost effective way"
+    description: "A platform where students find internships and startups find well trained and talented students for their needs"
   },
   {
     name: "ClassSense",
@@ -44,14 +44,14 @@ export const portfolioData = [
   {
     name: "HouseTap",
     category: "Home Service",
-    problem: "Users find it difficult to find trustworthy gig workers nearby for some services requirements at home",
-    description: "HouseTap is revolutionising the home services industry by creating a reliable, efficient marketplace connecting skilled workers—carpenters, plumbers, electricians, and more—directly with homeowners"
+    problem: "Users struggle to find trustworthy gig workers nearby for services requirements (carpenter, plumber, electrician, etc) at home",
+    description: "HouseTap is revolutionising the home services industry by creating a reliable, efficient marketplace connecting skilled workers directly with homeowners"
   },
   {
     name: "VitalIQ",
     category: "Health",
-    problem: "Patients often miss their health records and end up doing unnessary tests during doctor visits",
-    description: "VitalIQ consolidates all your medical records, prescriptions, lab reports, and health data into one secure, accessible platform"
+    problem: "Patients often miss their health records and end up doing repititive tests during doctor visits",
+    description: "VitalIQ consolidates all your medical records, prescriptions, lab reports, and health data into one secure, accessible platform while also providing AI powered insights and recommendations on food habits, activities and medicines"
   },
   {
     name: "MindSetu",
@@ -92,7 +92,7 @@ export const portfolioData = [
   {
     name: "AppSetu",
     category: "Infrastructure",
-    problem: "Developers struggle to integrate with government DPI interfaces",
+    problem: "Developers in India struggle to integrate with government DPI interfaces",
     description: "AppSetu streamlines access to critical services like Aadhaar, UPI, DigiLocker, and eSign, accelerating innovation and fostering a new era of digital solutions for India"
   },
   {
@@ -135,7 +135,7 @@ export const portfolioData = [
     name: "Scanly",
     category: "Networking",
     problem: "Professionals often miss valuable connections after they loose the business cards",
-    description: "Scanly eliminates the chaos of managing physical business cards by transforming them into organised digital contacts. Simply scan any business card using your smartphone camera, and the platform's advanced OCR technology instantly extracts all information and syncs it directly with your mobile contacts."
+    description: "Scanly eliminates the chaos of managing physical business cards by transforming them into organised digital contacts in their phone"
   },
   {
     name: "OfferPath",
@@ -147,12 +147,7 @@ export const portfolioData = [
     name: "CookSetu",
     category: "Home Service",
     problem: "Users find it difficult to find cooks nearby when they need",
-    description: "CookSetu connects you with talented local home cooks who come to your kitchen to prepare authentic, home-style meals"
-  },
-  {
-    name: "NewsReel",
-    category: "Media",
-    problem: "Video content is hard to search and summarize.",
-    description: "Semantic video summarization and indexing for media archives."
+    description: "CookSetu connects you with talented local home cooks for 1 time or monthly basis"
   }
+
 ];

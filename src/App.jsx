@@ -7,6 +7,8 @@ import BuildWithUs from './pages/BuildWithUs';
 import About from './pages/About';
 import ScrollToTop from './components/ScrollToTop';
 
+import Contact from './pages/Contact';
+
 function App() {
   return (
     <Router>
@@ -18,6 +20,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/build" element={<BuildWithUs />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
     </Router>
