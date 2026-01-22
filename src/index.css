@@ -11,6 +11,7 @@
   --font-main: 'Inter', system-ui, -apple-system, sans-serif;
   --transition-fast: 0.2s ease;
   --container-width: 1200px;
+  --header-height: 80px;
 }
 
 * {
@@ -25,6 +26,8 @@ body {
   font-family: var(--font-main);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
 }
 
 a {
@@ -40,9 +43,10 @@ button {
 }
 
 .container {
+  width: 100%;
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
 h1,
@@ -56,7 +60,17 @@ h6 {
 }
 
 .section-padding {
-  padding: 6rem 0;
+  padding: 4rem 0;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 6rem 0;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
 }
 
 .btn {
@@ -68,6 +82,7 @@ h6 {
   font-weight: 500;
   font-size: 1rem;
   transition: all var(--transition-fast);
+  white-space: nowrap;
 }
 
 .btn-primary {
@@ -89,10 +104,57 @@ h6 {
   background-color: var(--border-color);
 }
 
+/* Responsive Grids */
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
 .grid-cols-3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: 1fr;
   gap: 2rem;
+}
+
+@media (min-width: 640px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Animations & Utilities */
+.logo-rotate {
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hidden-mobile {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .hidden-mobile {
+    display: flex !important;
+  }
+
+  .hidden-desktop {
+    display: none !important;
+  }
 }
 
 /* Scrollbar */
@@ -111,18 +173,4 @@ h6 {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-secondary);
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.logo-rotate {
-  animation: rotate 20s linear infinite;
 }

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import './Model.css';
 
 const Model = () => {
     const steps = [
@@ -26,42 +26,26 @@ const Model = () => {
 
     return (
         <div className="container section-padding">
-            <div style={{ maxWidth: '800px', marginBottom: '4rem' }}>
-                <h1 style={{ fontSize: '3.5rem', marginBottom: '2rem', letterSpacing: '-1px' }}>The Venture Builder Model</h1>
+            <div className="model-header">
+                <h1 className="model-title">The Venture Builder Model</h1>
                 <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>
                     We systematically de-risk startup creation. Unlike VCs who diversified risk across a portfolio, we concentrate risk and manage it through deep operational control and repeatable execution playbooks.
                 </p>
             </div>
 
-            <div style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-                gap: '4rem',
-                marginBottom: '6rem'
-            }}>
+            <div className="model-steps">
                 {steps.map((step, i) => (
                     <div key={i}>
-                        <span style={{
-                            fontSize: '4rem',
-                            fontWeight: '700',
-                            color: 'var(--border-color)',
-                            display: 'block',
-                            marginBottom: '1rem'
-                        }}>{step.num}</span>
+                        <span className="step-num">{step.num}</span>
                         <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>{step.title}</h3>
                         <p style={{ color: 'var(--text-secondary)' }}>{step.desc}</p>
                     </div>
                 ))}
             </div>
 
-            <div style={{
-                background: 'var(--bg-secondary)',
-                padding: '4rem',
-                borderRadius: '8px',
-                border: '1px solid var(--border-color)'
-            }}>
+            <div className="comparison-box">
                 <h2 style={{ fontSize: '2rem', marginBottom: '2rem' }}>How We Differ</h2>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem' }}>
+                <div className="comparison-grid">
                     <div>
                         <h4 style={{ color: 'var(--accent-primary)', marginBottom: '0.5rem' }}>vs Venture Studios</h4>
                         <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>

@@ -1,37 +1,18 @@
-import React from 'react';
+import './CompanyCard.css';
 
 // eslint-disable-next-line react/prop-types
 const CompanyCard = ({ name, category, problem, description }) => {
     return (
-        <div style={{
-            background: 'var(--bg-secondary)',
-            border: '1px solid var(--border-color)',
-            padding: '2rem',
-            borderRadius: '4px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: '1rem',
-            transition: 'var(--transition-fast)'
-        }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-                <h3 style={{ fontSize: '1.25rem', color: 'var(--text-primary)' }}>{name}</h3>
-                <span style={{
-                    fontSize: '0.75rem',
-                    textTransform: 'uppercase',
-                    letterSpacing: '1px',
-                    color: 'var(--text-secondary)',
-                    border: '1px solid var(--border-color)',
-                    padding: '0.25rem 0.5rem',
-                    borderRadius: '100px'
-                }}>
-                    {category}
-                </span>
+        <div className="card-wrapper">
+            <div className="card-header">
+                <h3 className="card-title">{name}</h3>
+                <span className="card-badge">{category}</span>
             </div>
-            <div>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.875rem', marginBottom: '0.5rem' }}>
-                    <strong style={{ color: 'var(--text-primary)' }}>Problem:</strong> {problem}
+            <div className="card-body">
+                <p className="card-info">
+                    <span className="card-label">Problem:</span> {problem}
                 </p>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>
+                <p className="card-description">
                     {description}
                 </p>
             </div>

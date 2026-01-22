@@ -1,0 +1,63 @@
+/* CompanyCard.css */
+.card-wrapper {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: var(--transition-fast);
+}
+
+.card-wrapper:hover {
+    border-color: var(--accent-primary);
+    transform: translateY(-2px);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    /* Added gap for smaller screens */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+}
+
+.card-badge {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 100px;
+    white-space: nowrap;
+    /* Prevent badge text wrap */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-info {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.card-label {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.card-description {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
