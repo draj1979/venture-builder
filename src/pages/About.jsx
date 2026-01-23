@@ -1,6 +1,13 @@
+import SEO from '../components/SEO';
+
 const About = () => {
     return (
         <div className="container section-padding">
+            <SEO
+                title="About Us"
+                description="Learn about Kartavya Technology's mission to build enduring AI-driven companies from India with global relevance."
+                canonical="/about"
+            />
             <div style={{ maxWidth: '800px', margin: '0 auto' }}>
                 <h1 style={{
                     fontSize: 'clamp(2.5rem, 8vw, 3.5rem)',

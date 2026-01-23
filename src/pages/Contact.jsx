@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import SEO from '../components/SEO';
 import './Contact.css';
 
 const Contact = () => {
@@ -16,6 +17,11 @@ const Contact = () => {
 
     return (
         <main className="contact-page">
+            <SEO
+                title="Contact Us"
+                description="Get in touch with Kartavya Technology for partnerships, ventures, or inquiries about AI-first company building."
+                canonical="/contact"
+            />
             <section className="contact-hero section-padding">
                 <div className="container">
                     <div className="hero-content text-center">

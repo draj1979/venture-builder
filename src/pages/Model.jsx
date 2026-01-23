@@ -1,3 +1,4 @@
+import SEO from '../components/SEO';
 import './Model.css';
 
 const Model = () => {
@@ -26,6 +27,11 @@ const Model = () => {
 
     return (
         <div className="container section-padding">
+            <SEO
+                title="Venture Builder Model"
+                description="Discover how Kartavya Technology systematically de-risks startup creation through deep operational control and repeatable execution playbooks."
+                canonical="/model"
+            />
             <div className="model-header">
                 <h1 className="model-title">The Venture Builder Model</h1>
                 <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>

@@ -1,6 +1,13 @@
+import SEO from '../components/SEO';
+
 const BuildWithUs = () => {
     return (
         <div className="container section-padding">
+            <SEO
+                title="Build With Us"
+                description="Partner with Kartavya Technology to co-create the next generation of AI platforms. We provide engineering, product leadership, and shared equity."
+                canonical="/build"
+            />
             <div style={{ maxWidth: '800px' }}>
                 <h1 style={{
                     fontSize: 'clamp(2.5rem, 8vw, 3.5rem)',

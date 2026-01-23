@@ -1,9 +1,15 @@
 import { portfolioData } from '../data/portfolio';
 import CompanyCard from '../components/CompanyCard';
+import SEO from '../components/SEO';
 
 const Portfolio = () => {
     return (
         <div className="container section-padding">
+            <SEO
+                title="Portfolio"
+                description="Explore Kartavya's portfolio of 26 AI-first companies built, operated, and positioned for global scale."
+                canonical="/portfolio"
+            />
             <div style={{ maxWidth: '600px', marginBottom: '4rem' }}>
                 <h1 style={{
                     fontSize: 'clamp(2.5rem, 8vw, 3.5rem)',

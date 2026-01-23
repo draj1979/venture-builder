@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { portfolioData } from '../data/portfolio';
 import CompanyCard from '../components/CompanyCard';
+import SEO from '../components/SEO';
 import './Home.css';
 
 const Home = () => {
@@ -8,6 +9,11 @@ const Home = () => {
 
     return (
         <div className="container">
+            <SEO
+                title="AI Venture Builder"
+                description="Kartavya Technology is a Venture Builder dedicated to conceiving, building, and scaling AI-first companies with long-term ownership and execution focus."
+                canonical="/"
+            />
             <section className="hero-wrapper">
                 <h1 className="hero-headline">
                     We Conceive, Build, and Scale <span style={{ color: 'var(--accent-primary)' }}>AI-First Companies</span>.
