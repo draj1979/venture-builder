@@ -10,8 +10,8 @@ const Footer = () => {
                     <p className="footer-copy">&copy; {new Date().getFullYear()} Kartavya Technology. All rights reserved.</p>
                 </div>
                 <div className="footer-links">
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="footer-link">Twitter</a>
+                    <a href="https://linkedin.com/company/kartavyatech" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
+                    <a href="https://twitter.com/kartavyatech" target="_blank" rel="noopener noreferrer" className="footer-link">Twitter</a>
                     <Link to="/contact" className="footer-link">Contact</Link>
                 </div>
             </div>
