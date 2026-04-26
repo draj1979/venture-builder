@@ -55,7 +55,7 @@ const BuildWithUs = () => {
                 <p style={{ color: 'var(--text-secondary)', marginBottom: '2rem' }}>
                     We are selective. We look for unfair advantages and massive market potential.
                 </p>
-                <a href="mailto:partners@kartavya.tech" className="btn btn-primary" style={{ fontSize: '1.125rem', padding: '1rem 2rem' }}>
+                <a href="https://calendly.com/dharam-tiwari/30min" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ fontSize: '1.125rem', padding: '1rem 2rem' }}>
                     Apply to Co-Build
                 </a>
             </div>
