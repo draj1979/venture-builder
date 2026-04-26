@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     name: "LawGIQ",
     category: "LegalTech",
-    problem: "Lawyers have to do lot of repititive work in documentations and legal research",
+    problem: "Lawyers have to do a lot of repetitive work in documentation and legal research",
     description: "LawGIQ is an innovative AI-powered platform designed to be a comprehensive legal assistant for lawyers and law firms"
   },
   {
@@ -50,7 +50,7 @@ export const portfolioData = [
   {
     name: "VitalIQ",
     category: "Health",
-    problem: "Patients often miss their health records and end up doing repititive tests during doctor visits",
+    problem: "Patients often miss their health records and end up doing repetitive tests during doctor visits",
     description: "VitalIQ consolidates all your medical records, prescriptions, lab reports, and health data into one secure, accessible platform while also providing AI powered insights and recommendations on food habits, activities and medicines"
   },
   {
@@ -86,7 +86,7 @@ export const portfolioData = [
   {
     name: "FixMyIssue",
     category: "Customer Care",
-    problem: "Users find it frustating to followup with customer care for small issues",
+    problem: "Users find it frustrating to follow up with customer care for small issues",
     description: "FixMyIssue allows users to register complaints and then leverages AI to manage the entire follow-up process, eliminating the frustration of endless customer service calls"
   },
   {
@@ -122,19 +122,19 @@ export const portfolioData = [
   {
     name: "RasoiMate",
     category: "Food",
-    problem: "Users find it difficult to follow the recipies in youtube videos. They want interactive assistant",
+    problem: "Users find it difficult to follow the recipes in YouTube videos. They want an interactive assistant",
     description: "RasoiMate is a voice-activated cooking assistant that provides real-time guidance whilst you prepare meals. "
   },
   {
     name: "Blinderville",
     category: "Dating",
-    problem: "Users often loose trust and gets frustaged by fake profiles in dating websites",
+    problem: "Users often lose trust and get frustrated by fake profiles on dating websites",
     description: "Blinderville addresses the superficiality plaguing modern dating apps by prioritising intellectual and emotional connection over physical appearance"
   },
   {
     name: "Scanly",
     category: "Networking",
-    problem: "Professionals often miss valuable connections after they loose the business cards",
+    problem: "Professionals often miss valuable connections after they lose business cards",
     description: "Scanly eliminates the chaos of managing physical business cards by transforming them into organised digital contacts in their phone"
   },
   {
