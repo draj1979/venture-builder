@@ -88,7 +88,7 @@ export const portfolioData = [
     category: "Marketing",
     problem: "Marketing team are overwhelmed by growing social media interactions and content creation.",
     description: "BrandSetu empowers businesses to achieve consistent brand messaging, dynamic content generation, efficient social media presence, and data-driven insights without the overhead of manual processes.",
-    url: "https://www.brandsetu.in"
+    url: "https://brandsetu.vercel.app/"
   },
   {
     name: "Resumely",
