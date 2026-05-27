@@ -3,151 +3,176 @@ export const portfolioData = [
     name: "LawGIQ",
     category: "LegalTech",
     problem: "Lawyers have to do a lot of repetitive work in documentation and legal research",
-    description: "LawGIQ is an innovative AI-powered platform designed to be a comprehensive legal assistant for lawyers and law firms"
+    description: "LawGIQ is an innovative AI-powered platform designed to be a comprehensive legal assistant for lawyers and law firms",
+    url: "https://www.lawgiq.in"
   },
   {
     name: "ClinIQ",
     category: "HealthTech",
     problem: "Doctors find it difficult to track their patients records and extract insights from it",
-    description: "ClinIQ is an advanced AI-powered platform designed to empower doctors and medical professionals. It acts as an intelligent copilot, streamlining clinical workflows, enhancing diagnostic accuracy, and ultimately improving the quality and efficiency of patient care"
+    description: "ClinIQ is an advanced AI-powered platform designed to empower doctors and medical professionals. It acts as an intelligent copilot, streamlining clinical workflows, enhancing diagnostic accuracy, and ultimately improving the quality and efficiency of patient care",
+    url: "https://www.cliniq.in"
   },
   {
     name: "InternOrbit",
     category: "Education",
     problem: "Startups need talented students who can help them in building products and business in cost effective way",
-    description: "A platform where students find internships and startups find well trained and talented students for their needs"
+    description: "A platform where students find internships and startups find well trained and talented students for their needs",
+    url: "https://www.internorbit.com"
   },
   {
     name: "ClassSense",
     category: "Education",
     problem: "Teachers struggle to manage administrative tasks and deliver personalized learning experiences.",
-    description: "ClassSense is an intelligent AI-powered platform that streamlines administrative tasks, enhances lesson delivery, and personalizes student learning experiences"
+    description: "ClassSense is an intelligent AI-powered platform that streamlines administrative tasks, enhances lesson delivery, and personalizes student learning experiences",
+    url: "https://www.classense.in"
   },
   {
     name: "SmartLeads",
     category: "Marketing",
     problem: "Manual lead generation is time-consuming and inefficient.",
-    description: "An intelligent lead generation system that identifies potential customers, extracts contact information, and automatically initiates multi-channel outreach campaigns"
+    description: "An intelligent lead generation system that identifies potential customers, extracts contact information, and automatically initiates multi-channel outreach campaigns",
+    url: "https://www.smartleads.in"
   },
   {
     name: "Alertwise",
     category: "Security",
     problem: "Security teams struggle to manage alerts and respond to threats in real-time.",
-    description: "Alertwise is an AI-powered copilot designed to supercharge IT security teams, streamlining operations and enhancing threat detection and response capabilities"
+    description: "Alertwise is an AI-powered copilot designed to supercharge IT security teams, streamlining operations and enhancing threat detection and response capabilities",
+    url: "https://www.alertwise.in"
   },
   {
     name: "AutoReel",
     category: "Marketing",
     problem: "Manual content creation is time-consuming and inefficient.",
-    description: "AutoReel empowers marketing teams to streamline their content strategy, automating the generation and posting of engaging content across all major social media platform"
+    description: "AutoReel empowers marketing teams to streamline their content strategy, automating the generation and posting of engaging content across all major social media platform",
+    url: "https://www.autoreel.in"
   },
   {
     name: "HouseTap",
     category: "Home Service",
     problem: "Users struggle to find trustworthy gig workers nearby for services requirements (carpenter, plumber, electrician, etc) at home",
-    description: "HouseTap is revolutionising the home services industry by creating a reliable, efficient marketplace connecting skilled workers directly with homeowners"
+    description: "HouseTap is revolutionising the home services industry by creating a reliable, efficient marketplace connecting skilled workers directly with homeowners",
+    url: "https://www.housetap.in"
   },
   {
     name: "VitalIQ",
     category: "Health",
     problem: "Patients often miss their health records and end up doing repetitive tests during doctor visits",
-    description: "VitalIQ consolidates all your medical records, prescriptions, lab reports, and health data into one secure, accessible platform while also providing AI powered insights and recommendations on food habits, activities and medicines"
+    description: "VitalIQ consolidates all your medical records, prescriptions, lab reports, and health data into one secure, accessible platform while also providing AI powered insights and recommendations on food habits, activities and medicines",
+    url: "https://www.vitaliq.in"
   },
   {
     name: "MindSetu",
     category: "Spiritual",
     problem: "Users feel bored of watching videos and listening to audio. They want to interact with spiritual gurus.",
-    description: "MindSetu offers a unique platform where users can engage with AI avatars of spiritual gurus from diverse traditions, receiving personalized guidance, advice, and insights tailored to their journey."
+    description: "MindSetu offers a unique platform where users can engage with AI avatars of spiritual gurus from diverse traditions, receiving personalized guidance, advice, and insights tailored to their journey.",
+    url: "https://www.themindsetu.com"
   },
   {
     name: "BeatSolo",
     category: "Music",
     problem: "Karaoke is very expensive and users struggle to find the karaoke version of the song they want instantly",
-    description: "BeatSolo transforms any song into a karaoke-ready track instantly using advanced AI technology"
+    description: "BeatSolo transforms any song into a karaoke-ready track instantly using advanced AI technology",
+    url: "https://www.beatsolo.in"
   },
   {
     name: "HireStack",
     category: "HR",
     problem: "Recruitment process is time-consuming and inefficient.",
-    description: "A comprehensive AI interviewer that analyses job descriptions, posts across multiple portals, screens applications, shortlists candidates based on criteria, and conducts preliminary interviews autonomously."
+    description: "A comprehensive AI interviewer that analyses job descriptions, posts across multiple portals, screens applications, shortlists candidates based on criteria, and conducts preliminary interviews autonomously.",
+    url: "https://www.hirestack.in"
   },
   {
     name: "BrandSetu",
     category: "Marketing",
     problem: "Marketing team are overwhelmed by growing social media interactions and content creation.",
-    description: "BrandSetu empowers businesses to achieve consistent brand messaging, dynamic content generation, efficient social media presence, and data-driven insights without the overhead of manual processes."
+    description: "BrandSetu empowers businesses to achieve consistent brand messaging, dynamic content generation, efficient social media presence, and data-driven insights without the overhead of manual processes.",
+    url: "https://www.brandsetu.in"
   },
   {
     name: "Resumely",
     category: "Productivity",
     problem: "Manual updates in resumes are time consuming, risky and boring",
-    description: "Resumely is an advanced platform that leverages artificial intelligence to craft professional, ATS-optimized resumes perfectly tailored for specific job roles"
+    description: "Resumely is an advanced platform that leverages artificial intelligence to craft professional, ATS-optimized resumes perfectly tailored for specific job roles",
+    url: "https://www.resumely.in"
   },
   {
     name: "FixMyIssue",
     category: "Customer Care",
     problem: "Users find it frustrating to follow up with customer care for small issues",
-    description: "FixMyIssue allows users to register complaints and then leverages AI to manage the entire follow-up process, eliminating the frustration of endless customer service calls"
+    description: "FixMyIssue allows users to register complaints and then leverages AI to manage the entire follow-up process, eliminating the frustration of endless customer service calls",
+    url: "https://www.fixmyissue.in"
   },
   {
     name: "AppSetu",
     category: "Infrastructure",
     problem: "Developers in India struggle to integrate with government DPI interfaces",
-    description: "AppSetu streamlines access to critical services like Aadhaar, UPI, DigiLocker, and eSign, accelerating innovation and fostering a new era of digital solutions for India"
+    description: "AppSetu streamlines access to critical services like Aadhaar, UPI, DigiLocker, and eSign, accelerating innovation and fostering a new era of digital solutions for India",
+    url: "https://www.appsetu.in"
   },
   {
     name: "Voigents",
     category: "Voice AI",
     problem: "Businesses struggle to quickly launch voice agent for their needs.",
-    description: "Voigents provide drag and drop capability to business to configure their Voice agents."
+    description: "Voigents provide drag and drop capability to business to configure their Voice agents.",
+    url: "https://www.voigents.com"
   },
   {
     name: "NewsReel",
     category: "Data",
     problem: "Users find it boring to read news articles",
-    description: "NewsReel is a dynamic news app where users discover trending news through engaging animated shorts"
+    description: "NewsReel is a dynamic news app where users discover trending news through engaging animated shorts",
+    url: "https://www.vartaverse.in"
   },
   {
     name: "EduSolve",
     category: "Education",
     problem: "Students find it boring to practice maths via textbooks",
-    description: "EduSolve revolutionizes math practice by providing an intelligent, interactive AI agent accessible via phone or laptop"
+    description: "EduSolve revolutionizes math practice by providing an intelligent, interactive AI agent accessible via phone or laptop",
+    url: "https://www.edusolve.in"
   },
   {
     name: "GharSe",
     category: "Food",
     problem: "Working professionals find it difficult to find nearby tiffin providers who can provide them home cooked meals",
-    description: "GharSe is an innovative digital marketplace connecting individuals with a network of local tiffin providers, bringing the comfort and authenticity of home-cooked meals right to their doorstep"
+    description: "GharSe is an innovative digital marketplace connecting individuals with a network of local tiffin providers, bringing the comfort and authenticity of home-cooked meals right to their doorstep",
+    url: "https://gharse-ruddy.vercel.app/"
   },
   {
     name: "RasoiMate",
     category: "Food",
     problem: "Users find it difficult to follow the recipes in YouTube videos. They want an interactive assistant",
-    description: "RasoiMate is a voice-activated cooking assistant that provides real-time guidance whilst you prepare meals. "
+    description: "RasoiMate is a voice-activated cooking assistant that provides real-time guidance whilst you prepare meals. ",
+    url: "https://www.rasoimate.com"
   },
   {
     name: "Blinderville",
     category: "Dating",
     problem: "Users often lose trust and get frustrated by fake profiles on dating websites",
-    description: "Blinderville addresses the superficiality plaguing modern dating apps by prioritising intellectual and emotional connection over physical appearance"
+    description: "Blinderville addresses the superficiality plaguing modern dating apps by prioritising intellectual and emotional connection over physical appearance",
+    url: "https://www.blinderville.in"
   },
   {
     name: "Scanly",
     category: "Networking",
     problem: "Professionals often miss valuable connections after they lose business cards",
-    description: "Scanly eliminates the chaos of managing physical business cards by transforming them into organised digital contacts in their phone"
+    description: "Scanly eliminates the chaos of managing physical business cards by transforming them into organised digital contacts in their phone",
+    url: "https://www.scanly.biz"
   },
   {
     name: "OfferPath",
     category: "Productivity",
     problem: "Users often miss suitable job opportunities due to time consuming job search process",
-    description: "OfferPath transforms the arduous job search process into a seamless, hands-free experience. Users simply upload their resume and our intelligent AI agent takes over, managing every aspect from discovery to outreach, acting as your personal career assistant"
+    description: "OfferPath transforms the arduous job search process into a seamless, hands-free experience. Users simply upload their resume and our intelligent AI agent takes over, managing every aspect from discovery to outreach, acting as your personal career assistant",
+    url: "https://www.offerpath.in"
   },
   {
     name: "CookSetu",
     category: "Home Service",
     problem: "Users find it difficult to find cooks nearby when they need",
-    description: "CookSetu connects you with talented local home cooks for 1 time or monthly basis"
+    description: "CookSetu connects you with talented local home cooks for 1 time or monthly basis",
+    url: "https://www.cooksetu.in"
   }
 
 ];
