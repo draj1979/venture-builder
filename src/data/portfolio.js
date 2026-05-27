@@ -81,7 +81,7 @@ export const portfolioData = [
     category: "HR",
     problem: "Recruitment process is time-consuming and inefficient.",
     description: "A comprehensive AI interviewer that analyses job descriptions, posts across multiple portals, screens applications, shortlists candidates based on criteria, and conducts preliminary interviews autonomously.",
-    url: "https://www.hirestack.in"
+    url: "https://hitestack-website.vercel.app/"
   },
   {
     name: "BrandSetu",
