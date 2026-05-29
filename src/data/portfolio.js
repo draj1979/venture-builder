@@ -11,7 +11,7 @@ export const portfolioData = [
     category: "HealthTech",
     problem: "Doctors find it difficult to track their patients records and extract insights from it",
     description: "ClinIQ is an advanced AI-powered platform designed to empower doctors and medical professionals. It acts as an intelligent copilot, streamlining clinical workflows, enhancing diagnostic accuracy, and ultimately improving the quality and efficiency of patient care",
-    url: "https://www.cliniq.in"
+    url: "https://cliniq-w97y.vercel.app/"
   },
   {
     name: "InternOrbit",
@@ -25,7 +25,7 @@ export const portfolioData = [
     category: "Education",
     problem: "Teachers struggle to manage administrative tasks and deliver personalized learning experiences.",
     description: "ClassSense is an intelligent AI-powered platform that streamlines administrative tasks, enhances lesson delivery, and personalizes student learning experiences",
-    url: "https://www.classense.in"
+    url: "https://classsense-ten.vercel.app/"
   },
   {
     name: "SmartLeads",
@@ -39,14 +39,14 @@ export const portfolioData = [
     category: "Security",
     problem: "Security teams struggle to manage alerts and respond to threats in real-time.",
     description: "Alertwise is an AI-powered copilot designed to supercharge IT security teams, streamlining operations and enhancing threat detection and response capabilities",
-    url: "https://www.alertwise.in"
+    url: "https://alertwise-five.vercel.app/"
   },
   {
     name: "AutoReel",
     category: "Marketing",
     problem: "Manual content creation is time-consuming and inefficient.",
     description: "AutoReel empowers marketing teams to streamline their content strategy, automating the generation and posting of engaging content across all major social media platform",
-    url: "https://www.autoreel.in"
+    url: "https://autoreel-two.vercel.app/"
   },
   {
     name: "HouseTap",
@@ -74,14 +74,14 @@ export const portfolioData = [
     category: "Music",
     problem: "Karaoke is very expensive and users struggle to find the karaoke version of the song they want instantly",
     description: "BeatSolo transforms any song into a karaoke-ready track instantly using advanced AI technology",
-    url: "https://www.beatsolo.in"
+    url: "https://beatsolo.vercel.app/"
   },
   {
     name: "HireStack",
     category: "HR",
     problem: "Recruitment process is time-consuming and inefficient.",
     description: "A comprehensive AI interviewer that analyses job descriptions, posts across multiple portals, screens applications, shortlists candidates based on criteria, and conducts preliminary interviews autonomously.",
-    url: "https://hitestack-website.vercel.app/"
+    url: "https://hirestack-three.vercel.app/"
   },
   {
     name: "BrandSetu",
@@ -109,7 +109,7 @@ export const portfolioData = [
     category: "Infrastructure",
     problem: "Developers in India struggle to integrate with government DPI interfaces",
     description: "AppSetu streamlines access to critical services like Aadhaar, UPI, DigiLocker, and eSign, accelerating innovation and fostering a new era of digital solutions for India",
-    url: "https://www.appsetu.in"
+    url: "https://appsetu.vercel.app/"
   },
   {
     name: "Voigents",
@@ -130,7 +130,7 @@ export const portfolioData = [
     category: "Education",
     problem: "Students find it boring to practice maths via textbooks",
     description: "EduSolve revolutionizes math practice by providing an intelligent, interactive AI agent accessible via phone or laptop",
-    url: "https://www.edusolve.in"
+    url: "https://edusolve-zeta.vercel.app/"
   },
   {
     name: "GharSe",
@@ -144,35 +144,35 @@ export const portfolioData = [
     category: "Food",
     problem: "Users find it difficult to follow the recipes in YouTube videos. They want an interactive assistant",
     description: "RasoiMate is a voice-activated cooking assistant that provides real-time guidance whilst you prepare meals. ",
-    url: "https://www.rasoimate.com"
+    url: "https://rasoimate.com"
   },
   {
     name: "Blinderville",
     category: "Dating",
     problem: "Users often lose trust and get frustrated by fake profiles on dating websites",
     description: "Blinderville addresses the superficiality plaguing modern dating apps by prioritising intellectual and emotional connection over physical appearance",
-    url: "https://www.blinderville.in"
+    url: "https://blinderville-six.vercel.app/"
   },
   {
     name: "Scanly",
     category: "Networking",
     problem: "Professionals often miss valuable connections after they lose business cards",
     description: "Scanly eliminates the chaos of managing physical business cards by transforming them into organised digital contacts in their phone",
-    url: "https://www.scanly.biz"
+    url: "https://scanly.biz"
   },
   {
     name: "OfferPath",
     category: "Productivity",
     problem: "Users often miss suitable job opportunities due to time consuming job search process",
     description: "OfferPath transforms the arduous job search process into a seamless, hands-free experience. Users simply upload their resume and our intelligent AI agent takes over, managing every aspect from discovery to outreach, acting as your personal career assistant",
-    url: "https://www.offerpath.in"
+    url: "https://offerpath-site.vercel.app/"
   },
   {
     name: "CookSetu",
     category: "Home Service",
     problem: "Users find it difficult to find cooks nearby when they need",
     description: "CookSetu connects you with talented local home cooks for 1 time or monthly basis",
-    url: "https://www.cooksetu.in"
+    url: "https://cooksetu.vercel.app/"
   }
 
 ];
