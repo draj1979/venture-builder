@@ -25,7 +25,7 @@ export const portfolioData = [
     category: "Education",
     problem: "Teachers struggle to manage administrative tasks and deliver personalized learning experiences.",
     description: "ClassSense is an intelligent AI-powered platform that streamlines administrative tasks, enhances lesson delivery, and personalizes student learning experiences",
-    url: "https://classsense-ten.vercel.app/"
+    url: "https://classsense-977121587860.asia-south1.run.app/"
   },
   {
     name: "SmartLeads",
@@ -60,7 +60,7 @@ export const portfolioData = [
     category: "Health",
     problem: "Patients often miss their health records and end up doing repetitive tests during doctor visits",
     description: "VitalIQ consolidates all your medical records, prescriptions, lab reports, and health data into one secure, accessible platform while also providing AI powered insights and recommendations on food habits, activities and medicines",
-    url: "https://www.vitaliq.in"
+    url: "https://vitaliq-frontend-977121587860.asia-south1.run.app/"
   },
   {
     name: "MindSetu",
