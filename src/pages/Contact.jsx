@@ -19,7 +19,7 @@ const Contact = () => {
         <main className="contact-page">
             <SEO
                 title="Contact Us"
-                description="Get in touch with Kartavya Technology for partnerships, ventures, or inquiries about AI-first company building."
+                description="Get in touch with Inferex AI for partnerships, ventures, or inquiries about AI-first company building."
                 canonical="/contact"
             />
             <section className="contact-hero section-padding">

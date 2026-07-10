@@ -11,7 +11,7 @@ const Home = () => {
         <div className="container">
             <SEO
                 title="AI Venture Builder"
-                description="Kartavya Technology is a Venture Builder dedicated to conceiving, building, and scaling AI-first companies with long-term ownership and execution focus."
+                description="Inferex AI is a Venture Builder dedicated to conceiving, building, and scaling AI-first companies with long-term ownership and execution focus."
                 canonical="/"
             />
             <section className="hero-wrapper">
@@ -19,7 +19,7 @@ const Home = () => {
                     We Conceive, Build, and Scale <span style={{ color: 'var(--accent-primary)' }}>AI-First Companies</span>.
                 </h1>
                 <p className="hero-subline">
-                    Kartavya Technology is a Venture Builder. We don't just invest or advise.
+                    Inferex AI is a Venture Builder. We don't just invest or advise.
                     We provide the leadership, architecture, and execution engine to turn ideas into category-defining AI companies.
                 </p>
                 <div className="hero-cta-group">

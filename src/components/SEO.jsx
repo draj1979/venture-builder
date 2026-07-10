@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, canonical, ogType, ogImage, twitterHandle }) => {
-    const siteName = 'Kartavya Technology';
+    const siteName = 'Inferex AI';
     const fullTitle = title ? `${title} | ${siteName}` : siteName;
     const siteUrl = 'https://kartavyatech.com'; // Replace with actual URL
 

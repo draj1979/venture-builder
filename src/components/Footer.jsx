@@ -6,8 +6,8 @@ const Footer = () => {
         <footer className="footer">
             <div className="container footer-grid">
                 <div className="footer-brand">
-                    <h3 style={{ fontSize: '1.25rem' }}>Kartavya Technology</h3>
-                    <p className="footer-copy">&copy; {new Date().getFullYear()} Kartavya Technology. All rights reserved.</p>
+                    <h3 style={{ fontSize: '1.25rem' }}>Inferex AI</h3>
+                    <p className="footer-copy">&copy; {new Date().getFullYear()} Inferex AI. All rights reserved.</p>
                 </div>
                 <div className="footer-links">
                     <a href="https://linkedin.com/company/kartavyatech" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>

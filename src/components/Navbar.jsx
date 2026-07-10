@@ -30,11 +30,11 @@ const Navbar = () => {
                 <Link to="/" className="logo">
                     <img
                         src="/logo.png"
-                        alt="Kartavya Logo"
+                        alt="Inferex Logo"
                         className="logo-rotate"
                         style={{ width: '40px', height: '40px', objectFit: 'contain' }}
                     />
-                    Kartavya
+                    Inferex
                 </Link>
 
                 <button

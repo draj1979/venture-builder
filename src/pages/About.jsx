@@ -5,7 +5,7 @@ const About = () => {
         <div className="container section-padding">
             <SEO
                 title="About Us"
-                description="Learn about Kartavya Technology's mission to build enduring AI-driven companies from India with global relevance."
+                description="Learn about Inferex AI's mission to build enduring AI-driven companies from India with global relevance."
                 canonical="/about"
             />
             <div style={{ maxWidth: '800px', margin: '0 auto' }}>
@@ -13,20 +13,20 @@ const About = () => {
                     fontSize: 'clamp(2.5rem, 8vw, 3.5rem)',
                     marginBottom: '2rem',
                     letterSpacing: '-1px'
-                }}>About Kartavya</h1>
+                }}>About Inferex</h1>
                 <p style={{
                     fontSize: 'clamp(1.125rem, 3vw, 1.25rem)',
                     color: 'var(--text-secondary)',
                     lineHeight: '1.6',
                     marginBottom: '4rem'
                 }}>
-                    Kartavya Technology is a Venture Builder focused on conceiving, building, and scaling AI-first companies from India with global relevance.
+                    Inferex AI is a Venture Builder focused on conceiving, building, and scaling AI-first companies from India with global relevance.
 
                     We do not operate as a services firm, accelerator, or advisory platform. Our work is centered on company creation—from identifying meaningful problems to building production-grade products, assembling core teams, and scaling ventures with long-term ownership and operational involvement.
 
                     Our approach combines deep technology expertise with execution discipline. We build ventures by embedding ourselves at the core—owning product architecture, AI strategy, and engineering execution from day one. This allows us to create companies that are capital-efficient, technically strong, and designed for scale.
 
-                    Kartavya Technology functions as a company-building platform. We leverage shared infrastructure, reusable AI systems, and repeatable execution frameworks to reduce the cost and risk of early-stage venture creation. This enables faster validation, stronger foundations, and higher long-term equity value across the portfolio.
+                    Inferex AI functions as a company-building platform. We leverage shared infrastructure, reusable AI systems, and repeatable execution frameworks to reduce the cost and risk of early-stage venture creation. This enables faster validation, stronger foundations, and higher long-term equity value across the portfolio.
 
                     We work with founders, domain experts, and enterprises who are aligned on one principle: building for the long term. Partnerships are equity-aligned, execution-driven, and grounded in shared ownership rather than transactional engagement.
 

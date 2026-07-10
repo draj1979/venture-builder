@@ -11,7 +11,7 @@ const AnnouncementBanner = () => {
             <div className="announcement-inner">
                 <span className="announcement-badge">New</span>
                 <p className="announcement-text">
-                    Proud to announce that Kartavya Technology is now an official{' '}
+                    Proud to announce that Inferex AI is now an official{' '}
                     <strong>Anthropic Partner</strong>.
                 </p>
             </div>

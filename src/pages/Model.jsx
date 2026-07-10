@@ -21,7 +21,7 @@ const Model = () => {
         {
             num: "04",
             title: "Spin-out & Scale",
-            desc: "Once product-market fit is visible, the venture spins out as an independent entity with Kartavya holding equity."
+            desc: "Once product-market fit is visible, the venture spins out as an independent entity with Inferex holding equity."
         }
     ];
 
@@ -29,7 +29,7 @@ const Model = () => {
         <div className="container section-padding">
             <SEO
                 title="Venture Builder Model"
-                description="Discover how Kartavya Technology systematically de-risks startup creation through deep operational control and repeatable execution playbooks."
+                description="Discover how Inferex AI systematically de-risks startup creation through deep operational control and repeatable execution playbooks."
                 canonical="/model"
             />
             <div className="model-header">

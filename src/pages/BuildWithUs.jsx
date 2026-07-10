@@ -5,7 +5,7 @@ const BuildWithUs = () => {
         <div className="container section-padding">
             <SEO
                 title="Build With Us"
-                description="Partner with Kartavya Technology to co-create the next generation of AI platforms. We provide engineering, product leadership, and shared equity."
+                description="Partner with Inferex AI to co-create the next generation of AI platforms. We provide engineering, product leadership, and shared equity."
                 canonical="/build"
             />
             <div style={{ maxWidth: '800px' }}>

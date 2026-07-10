@@ -7,7 +7,7 @@ const Portfolio = () => {
         <div className="container section-padding">
             <SEO
                 title="Portfolio"
-                description="Explore Kartavya's portfolio of 26 AI-first companies built, operated, and positioned for global scale."
+                description="Explore Inferex's portfolio of 26 AI-first companies built, operated, and positioned for global scale."
                 canonical="/portfolio"
             />
             <div style={{ maxWidth: '600px', marginBottom: '4rem' }}>
