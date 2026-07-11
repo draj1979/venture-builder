@@ -21,11 +21,11 @@ export const portfolioData = [
     url: "https://www.internorbit.com"
   },
   {
-    name: "ClassSense",
+    name: "KonceptKlear",
     category: "Education",
-    problem: "Teachers struggle to manage administrative tasks and deliver personalized learning experiences.",
-    description: "ClassSense is an intelligent AI-powered platform that streamlines administrative tasks, enhances lesson delivery, and personalizes student learning experiences",
-    url: "https://classsense-git-main-dharams-projects-af90adea.vercel.app/"
+    problem: "Students who miss a class or lecture find it difficult to catch up with the missed content and concepts",
+    description: "KonceptKlear is a platform where students can interact with their teachers avatars and get catchup on missed lectures.",
+    url: "https://www.konceptklear.in"
   },
   {
     name: "SmartLeads",
