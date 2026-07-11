@@ -25,7 +25,7 @@ export const portfolioData = [
     category: "Education",
     problem: "Teachers struggle to manage administrative tasks and deliver personalized learning experiences.",
     description: "ClassSense is an intelligent AI-powered platform that streamlines administrative tasks, enhances lesson delivery, and personalizes student learning experiences",
-    url: "https://classsense-977121587860.asia-south1.run.app/"
+    url: "https://classsense-git-main-dharams-projects-af90adea.vercel.app/"
   },
   {
     name: "SmartLeads",
