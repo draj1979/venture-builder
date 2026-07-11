@@ -24,7 +24,7 @@ export const portfolioData = [
     name: "KonceptKlear",
     category: "Education",
     problem: "Students who miss a class or lecture find it difficult to catch up with the missed content and concepts",
-    description: "KonceptKlear is a platform where students can interact with their teachers avatars and get catchup on missed lectures.",
+    description: "KonceptKlear is a platform where students can interact with their teachers avatars and catchup on missed lectures.",
     url: "https://www.konceptklear.in"
   },
   {
