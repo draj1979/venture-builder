@@ -21,11 +21,11 @@ export const portfolioData = [
     url: "https://www.internorbit.com"
   },
   {
-    name: "KonceptKlear",
+    name: "Classense",
     category: "Education",
     problem: "Students who miss a class or lecture find it difficult to catch up with the missed content and concepts",
-    description: "KonceptKlear is a platform where students can interact with their teachers avatars and catchup on missed lectures.",
-    url: "https://www.konceptklear.in"
+    description: "Classense is a platform where students can interact with their teachers avatars and catchup on missed lectures.",
+    url: "https://www.classense.in"
   },
   {
     name: "SmartLeads",
