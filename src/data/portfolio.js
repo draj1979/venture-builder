@@ -60,7 +60,7 @@ export const portfolioData = [
     category: "Health",
     problem: "Patients often miss their health records and end up doing repetitive tests during doctor visits",
     description: "VitalIQ consolidates all your medical records, prescriptions, lab reports, and health data into one secure, accessible platform while also providing AI powered insights and recommendations on food habits, activities and medicines",
-    url: "https://vitaliq-frontend-977121587860.asia-south1.run.app/"
+    url: "https://www.vitaliq.in "
   },
   {
     name: "MindSetu",
