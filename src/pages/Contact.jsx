@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
 import SEO from '../components/SEO';
+import { WHATSAPP_DISPLAY_NUMBER, whatsappLink } from '../data/whatsapp';
 import './Contact.css';
 
 const Contact = () => {
@@ -42,6 +44,20 @@ const Contact = () => {
                                 <h3>Interested in Building?</h3>
                                 <p>We are always on the lookout for visionary founders and world-class talent to join our studio.</p>
                                 <a href="mailto:hello@kartavyatech.com" className="info-link">hello@kartavyatech.com</a>
+                            </div>
+
+                            <div className="info-card">
+                                <h3>Chat on WhatsApp</h3>
+                                <p>Message our assistant for a quick answer on ventures, partnerships, or how the studio works.</p>
+                                <a
+                                    href={whatsappLink('Hi Inferex AI — I came from your contact page and have a question.')}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="info-link whatsapp-link"
+                                >
+                                    <FaWhatsapp aria-hidden="true" />
+                                    {WHATSAPP_DISPLAY_NUMBER}
+                                </a>
                             </div>
 
                             <div className="info-card">

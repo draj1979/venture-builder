@@ -1,6 +1,7 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
 import AnnouncementBanner from './AnnouncementBanner';
+import WhatsAppButton from './WhatsAppButton';
 
 // eslint-disable-next-line react/prop-types
 const Layout = ({ children }) => {
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
             <Navbar />
             <main style={{ flex: 1 }}>{children}</main>
             <Footer />
+            <WhatsAppButton />
         </div>
     );
 };

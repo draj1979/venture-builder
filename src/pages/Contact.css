@@ -73,6 +73,13 @@
     text-underline-offset: 4px;
 }
 
+.whatsapp-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #25d366;
+}
+
 .calendly-card {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid var(--border-color);

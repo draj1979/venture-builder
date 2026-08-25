@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { whatsappLink } from '../data/whatsapp';
 import './Footer.css';
 
 const Footer = () => {
@@ -12,6 +13,7 @@ const Footer = () => {
                 <div className="footer-links">
                     <a href="https://linkedin.com/company/kartavyatech" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
                     <a href="https://twitter.com/kartavyatech" target="_blank" rel="noopener noreferrer" className="footer-link">Twitter</a>
+                    <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className="footer-link">WhatsApp</a>
                     <Link to="/contact" className="footer-link">Contact</Link>
                 </div>
             </div>
