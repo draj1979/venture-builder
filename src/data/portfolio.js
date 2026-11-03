@@ -14,11 +14,11 @@ export const portfolioData = [
     url: "https://cliniq-w97y.vercel.app/"
   },
   {
-    name: "InternOrbit",
-    category: "Education",
-    problem: "Startups need talented students who can help them in building products and business in cost effective way",
-    description: "A platform where students find internships and startups find well trained and talented students for their needs",
-    url: "https://www.internorbit.com"
+    name: "Setu",
+    category: "Real Estate",
+    problem: "Real Estate builders face challenges in selling their inventory and connecting with potential buyers effectively",
+    description: "Setu is a whatsapp based AI Sales agent that handles sales inquiries, provides property information, and assists in lead generation for real estate builders",
+    url: "https://www.gosetu.co"
   },
   {
     name: "Classense",
