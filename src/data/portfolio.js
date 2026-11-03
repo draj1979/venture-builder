@@ -91,11 +91,11 @@ export const portfolioData = [
     url: "https://brandsetu.vercel.app/"
   },
   {
-    name: "Resumely",
-    category: "Productivity",
-    problem: "Manual updates in resumes are time consuming, risky and boring",
-    description: "Resumely is an advanced platform that leverages artificial intelligence to craft professional, ATS-optimized resumes perfectly tailored for specific job roles",
-    url: "https://www.resumely.in"
+    name: "AlphaGem",
+    category: "Stock Market",
+    problem: "Retail investors find it difficult to do in-depth research on companies that they want to invest",
+    description: "AlphaGem is an advanced platform that leverages artificial intelligence to provide retail investors with in-depth research and analysis on companies they want to invest in",
+    url: "https://www.alphagem.in"
   },
   {
     name: "FixMyIssue",
@@ -161,18 +161,18 @@ export const portfolioData = [
     url: "https://scanly.biz"
   },
   {
-    name: "OfferPath",
-    category: "Productivity",
-    problem: "Users often miss suitable job opportunities due to time consuming job search process",
-    description: "OfferPath transforms the arduous job search process into a seamless, hands-free experience. Users simply upload their resume and our intelligent AI agent takes over, managing every aspect from discovery to outreach, acting as your personal career assistant",
-    url: "https://offerpath-site.vercel.app/"
+    name: "StaffStream",
+    category: "Digital Marketing",
+    problem: "Businesses struggle to manage their social media presence and engage with their audience effectively",
+    description: "StaffStream is a comprehensive digital marketing platform that helps businesses streamline their social media management and boost audience engagement",
+    url: "https://staffstream.in/"
   },
   {
-    name: "CookSetu",
-    category: "Home Service",
-    problem: "Users find it difficult to find cooks nearby when they need",
-    description: "CookSetu connects you with talented local home cooks for 1 time or monthly basis",
-    url: "https://cooksetu.vercel.app/"
+    name: "RecceMaster",
+    category: "Digital Marketing",
+    problem: "Marketing agencies find it difficult to organize recce for new sites",
+    description: "RecceMaster helps marketing agencies streamline the process of organizing recce for new sites, providing a comprehensive platform to manage and coordinate site visits efficiently",
+    url: "https://recce-platform-2026.web.app/"
   }
 
 ];
